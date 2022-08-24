@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-def uppercase(str,value=0):
+def uppercase(str, value=0):
     for i in str:
         if ord(i) >= ord('a') and ord(i) <= ord('z'):
             value = 32

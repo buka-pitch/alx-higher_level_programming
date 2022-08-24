@@ -2,6 +2,6 @@
 
 def islower(c):
     if ord(c) >= ord('a') and ord(c) <= ord('z'):
-        return print(True)
+        return True
     else:
-        return print(False)
+        return False

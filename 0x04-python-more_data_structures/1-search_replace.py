@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-def search_replace(my_list, dest, replacment):
+def search_replace(my_list, search, replace):
+    """ function to replace specific item of a list 
+        by copying the list and finding the index of
+        the list then replacing the item
+        using the index with the new one
+    """
     new_list = my_list.copy()
-    i = my_list.index(dest)
-    new_list[i] = replacment
+    i = my_list.index(search)
+    new_list[i] = replace
     return new_list
 
-# my_list = [1, 2, 3, 4, 5, 4, 2, 1, 1, 4, 89]
-# new_list = search_replace(my_list, 2, 89)
-# print(new_list)
-# print(my_list)
+
+

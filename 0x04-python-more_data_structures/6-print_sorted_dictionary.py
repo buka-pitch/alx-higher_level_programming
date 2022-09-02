@@ -2,8 +2,7 @@
 
 def print_sorted_dictionary(a_dictionary):
     """
+    function to sort a dict by order
     """
-    sorted_dict = a_dictionary.copy()
-    sorted(sorted_dict.keys())
-    for key, value in sorted_dict.items():
-        print(key, ":", value)
+    for i in sorted(a_dictionary):
+        print('{} : {}'.format(i, a_dictionary[i]))

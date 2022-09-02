@@ -6,4 +6,4 @@ def search_replace(my_list, search, replace):
     the list then replacing the item
     using the index with the new one
     """
-    return [replace if i == search for i in my_list]
+    return [replace if i == search else i for i in my_list]

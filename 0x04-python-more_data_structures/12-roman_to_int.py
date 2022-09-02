@@ -5,9 +5,9 @@ def roman_to_int(rom_string):
     ro_num = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     integer = 0
     for i in range(len(rom_string)):
-        if i > 0 and ro_num[rom_string[i]] > rom_num[rom_string[i - 1]]:
-            integer += rom_num[rom_string[i]] - \
-                2 * rom_num[rom_string[i - 1]]
+        if i > 0 and ro_num[rom_string[i]] > ro_num[rom_string[i - 1]]:
+            integer += ro_num[rom_string[i]] - \
+                2 * ro_num[rom_string[i - 1]]
         else:
-            integer += rom_num[rom_string[i]]
+            integer += ro_num[rom_string[i]]
     return integer

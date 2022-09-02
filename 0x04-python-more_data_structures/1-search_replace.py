@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def search_replace(my_list, search, replace):
-    """ 
+    """
     function to replace specific item of a list
     finding the index of
     the list then replacing the item

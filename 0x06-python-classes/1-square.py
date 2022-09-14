@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" creates a square class
+"""
 
 
 class Square:

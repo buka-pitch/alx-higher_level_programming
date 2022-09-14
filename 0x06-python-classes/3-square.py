@@ -9,7 +9,9 @@ class Square:
     """
 
     def __init__(self, size=0):
-        if size not isinstance(size, int):
+        """initialize the square class
+        """
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
@@ -21,4 +23,4 @@ class Square:
             return the area of the square
         """
 
-        return seld.__size ** 2
+        return self.__size ** 2

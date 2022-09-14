@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 """
 Square class with optional private arg size
 """
@@ -23,4 +23,4 @@ class Square:
             return the area of the square
         """
 
-        return self.__size ** 2
+        return (self.__size ** 2)

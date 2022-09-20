@@ -1,0 +1,58 @@
+Test for the 0-add_integer Function
+###################################
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+======================
+
+" testing with integer " 
+>>> add_integer(10,15)
+25
+
+>> add_integer(10)
+108
+
+=======================
+" Testing with list"
+
+>>> add_integer([1,2,3], [2,3,4])
+Traceback (most recent call last):
+...
+TypeError: a must be integer
+
+>>> add_integer([1,2,3])
+Traceback (most recent call last):
+...
+TypeError: a must be integer
+
+=======================
+
+" testing with floating number "
+>>> add_integer(2.5, 2.5)
+4
+
+
+>>> add_integer(4.5, 10)
+14
+
+
+========================
+
+"testing with strings"
+
+>>> add_integer("one")
+Traceback (most recent call last):
+...
+TypeError: a must be integer
+
+========================
+
+>>> add_integer("alx", "Holberton")
+Traceback (most recent call last):
+...
+TypeError: a must be integer
+
+>>> add_integer("one")
+Traceback (most recent call last):
+...
+TypeError: a must be integer

@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+""" working with file handlers in python 3
+"""
 
 
 def read_file(filename=""):
